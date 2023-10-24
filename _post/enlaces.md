@@ -1,3 +1,11 @@
+---
+layout: post
+title: Enlaces
+---
+
+{{ page.title }}
+================
+
 <h1>Enlaces</h1>
   <ul class="posts">
     <li><span>Sitio web</span> &raquo; <a href="https://jmdv.es/">jmdv.es</a></li>
