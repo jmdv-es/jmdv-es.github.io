@@ -1,3 +1,9 @@
+---
+layout: default
+title: JMDV - Cliente DAW2
+---
+
+
 <html>
   <body>
     <script>
@@ -14,5 +20,15 @@
         document.getElementsByTagName('body')[0].innerHTML = htmlString;
       })()
     </script>
+
+    <div id="home">
+      <h1>Jose Martínez de Vega (jmdv.es)</h1>
+      <ul class="posts">
+        {% for post in site.posts %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
   <body>
 </html>
